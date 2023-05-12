@@ -6,6 +6,10 @@ html {
     background-color: #434649;
     cursor: none;
 }
+.projecttechne {
+    font-family: Bhiure;
+}
+
 :root {
     --pink: hsl(338, 70%, 55%);
     --teal: hsl(183, 70%, 62%);
@@ -212,6 +216,7 @@ nav ul li a:hover {
 .rights {
     background: transparent;
     padding-top: 75px;
+    padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     text-decoration: none;
@@ -222,4 +227,46 @@ nav ul li a:hover {
     bottom: 0;
     width: 100%;
     color: aliceblue;
+}
+
+@font-face {
+    font-family: Bhiure;
+    src: url("Bhiure.otf") format("opentype");
+}
+
+.animate-charcter
+{
+  padding-top: -100px;
+  background-image: linear-gradient(
+    -225deg,
+    #ff0000 0%,
+    #2bff00 29%,
+    #4b5dff 67%,
+    #ff0000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.title {
+    padding-top: 70px;
+    padding-left: 20px;
+    text-align: center;
+    vertical-align: middle;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
