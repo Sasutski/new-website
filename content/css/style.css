@@ -210,16 +210,16 @@ nav ul li a:hover {
     }
 }
 .rights {
+    background: transparent;
     padding-top: 75px;
-    animation: fade-down 2000ms forwards cubic-bezier(0.43, 0.53, 0.5, 1.02);
-    transform: translateY(-100px);
-    opacity: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
-    position: relative;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: aliceblue;
 }
