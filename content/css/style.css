@@ -173,7 +173,7 @@ nav ul li a:hover {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: 4px dotted #ffffff;
+    border: 2px dashed #ffffff;
     left: 0;
     transform: translate(-50%, -50%);
     pointer-events: none;
@@ -198,7 +198,7 @@ nav ul li a:hover {
 .cursor.large {
     height: 60px;
     width: 60px;
-    border: 15px dotted #878787;
+    border: 10px dashed #878787;
     animation: rotate 2s linear infinite;
 }
 
@@ -281,4 +281,8 @@ nav ul li a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.superscript {
+    font-size: 20px;
 }
