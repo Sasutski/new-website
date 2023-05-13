@@ -239,10 +239,14 @@ nav ul li a:hover {
   padding-top: -100px;
   background-image: linear-gradient(
     -225deg,
-    #ff0000 0%,
-    #2bff00 29%,
-    #4b5dff 67%,
-    #ff0000 100%
+    #ff7272 0%,
+    #ffad72 10%,
+    #c9ff72 20%,
+    #88ff70 29%,
+    #77dfff 67%,
+    #7289ff 77%,
+    #d272ff 87%,
+    #ff7272 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -263,8 +267,16 @@ nav ul li a:hover {
 }
 .title {
     padding-top: 70px;
-    padding-left: 20px;
     text-align: center;
+    vertical-align: middle;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 48px;
     vertical-align: middle;
     left: 0;
     bottom: 0;
