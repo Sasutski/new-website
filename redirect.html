@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="redirect">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="content/css/style.css">
+    <title>Redirecting...</title>
+</head>
+<body>
+    <div class="redirection">This page is better viewed on a computer.</div>
+    </br>
+    <div class="redirection">You will be redirected to another universe in</div>
+    <div id="counter" class="redirection">5</div>
+    <script>
+        setInterval(function() {
+            var div = document.querySelector("#counter");
+            var count = div.textContent * 1 - 1;
+            div.textContent = count;
+            if (count <= 0) {
+                window.location.replace("projecttechne.html");
+            }
+        }, 1000);
+    </script>
+    <div class="cursor"></div>
+    <script src="content/js/script.js"></script>
+    <div class="rights">
+        <p style="text-align: center;">
+            Copyright © 2023 Sasutski
+            <br>
+            All Rights Reserved
+        </p>
+    </div>
+</body>
+</html>

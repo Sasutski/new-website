@@ -9,6 +9,17 @@ html {
     background-color: #434649;
     cursor: none;
     max-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.redirect {
+    display: flex;
+    justify-content: center;
+    background-color: #434649;
+    color: white;
+    padding-left: 20px;
+    font-size: 24px;
+    max-height: 100vh;
 }
 .projecttechne {
     display: flex;
@@ -342,3 +353,25 @@ nav ul li a:hover {
         font-size: 24px;
     }
   }
+.redirection {
+    background: #434649;
+    color: #cbf3f0;
+    height: 10vh;
+    padding-top: 10px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fade-down 2000ms forwards cubic-bezier(0.43, 0.53, 0.5, 1.02);
+    transform: translateY(-100px);
+    opacity: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    padding-right: 20px;
+    cursor: none;
+}
