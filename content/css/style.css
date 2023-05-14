@@ -316,7 +316,9 @@ nav ul li a:hover {
     font-size: 20px;
 }
 .whatif {
-    font-size: 36px;
+    font-size: 96px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -350,7 +352,7 @@ nav ul li a:hover {
         font-size: 20px;
     }
     .whatif {
-        font-size: 24px;
+        font-size: 48px;
     }
   }
 .redirection {
