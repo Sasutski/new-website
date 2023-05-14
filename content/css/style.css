@@ -8,6 +8,7 @@ html {
     justify-content: center;
     background-color: #434649;
     cursor: none;
+    max-height: 100%;
 }
 .projecttechne {
     display: flex;
