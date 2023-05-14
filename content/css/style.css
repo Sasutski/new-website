@@ -241,7 +241,7 @@ nav ul li a:hover {
 
 @font-face {
     font-family: Bhiure;
-    src: url("Bhiure.otf") format("opentype");
+    src: url("Bhiure.woff") format("opentype");
 }
 
 .animate-charcter
@@ -303,7 +303,7 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 480px) {
     pre {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .projecttechne {
         font-size: 12px;
@@ -312,7 +312,7 @@ nav ul li a:hover {
         padding-top: 70px;
         text-align: center;
         vertical-align: middle;
-        font-size: 70px;
+        font-size: 84px;
         left: 0;
         bottom: 0;
         width: 100%;
