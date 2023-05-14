@@ -299,7 +299,7 @@ nav ul li a:hover {
     font-size: 36px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     pre {
         font-size: 1rem;
     }
