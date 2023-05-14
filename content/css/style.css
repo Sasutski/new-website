@@ -2,24 +2,22 @@
     margin: 0;
     padding: 0;
 }
-@media only screen and (max-width: 1920px) {
-    .projecttechne {
-        display: flex;
-        justify-content: center;
-        background-color: rgb(67, 83, 97);
-        font-family: Bhiure;
-        color: white;
-        padding-left: 20px;
-        font-size: 24px;
-    }
-  }
+
 html {
     display: flex;
     justify-content: center;
     background-color: #434649;
     cursor: none;
 }
-
+.projecttechne {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 83, 97);
+    font-family: Bhiure;
+    color: white;
+    padding-left: 20px;
+    font-size: 24px;
+}
 :root {
     --pink: hsl(338, 70%, 55%);
     --teal: hsl(183, 70%, 62%);
@@ -300,3 +298,38 @@ nav ul li a:hover {
 .whatif {
     font-size: 36px;
 }
+
+@media only screen and (max-width: 600px) {
+    pre {
+        font-size: 1rem;
+    }
+    .projecttechne {
+        font-size: 12px;
+    }
+    .title {
+        padding-top: 70px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 70px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .subtitle {
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 24px;
+        vertical-align: middle;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .superscript {
+        font-size: 20px;
+    }
+    .whatif {
+        font-size: 18px;
+    }
+  }
