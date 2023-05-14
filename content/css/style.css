@@ -312,7 +312,7 @@ nav ul li a:hover {
         padding-top: 70px;
         text-align: center;
         vertical-align: middle;
-        font-size: 84px;
+        font-size: 105px;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -321,7 +321,7 @@ nav ul li a:hover {
     .subtitle {
         padding-bottom: 20px;
         text-align: center;
-        font-size: 24px;
+        font-size: 36px;
         vertical-align: middle;
         left: 0;
         bottom: 0;
@@ -332,6 +332,6 @@ nav ul li a:hover {
         font-size: 20px;
     }
     .whatif {
-        font-size: 18px;
+        font-size: 24px;
     }
   }
