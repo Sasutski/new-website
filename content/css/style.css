@@ -238,10 +238,17 @@ nav ul li a:hover {
     width: 100%;
     color: aliceblue;
 }
-
+@font-face {
+    font-family: Movu;
+    src: url("Movu-Regular.otf");
+}
+@font-face {
+    font-family: Highttide;
+    src: url("HighTide-Regular.otf");
+}
 @font-face {
     font-family: Bhiure;
-    src: url("Bhiure.woff") format("opentype");
+    src: url("Bhiure.otf") format("opentype");
 }
 
 .animate-charcter
@@ -301,7 +308,7 @@ nav ul li a:hover {
     font-size: 36px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1000px) {
     pre {
         font-size: 0.8rem;
     }
